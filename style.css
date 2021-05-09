@@ -1,0 +1,94 @@
+*
+			{
+				box-sizing: border-box;
+				margin: 0;
+				padding: 0;
+			}
+			body
+			{
+				background-image: linear-gradient(rgb(238, 94, 94),rgb(206, 118, 77),rgb(226, 196, 96));
+			}
+			img
+			{
+				width: 80%;
+				height: auto;
+			}
+			header
+			{
+				width: 99%;
+				margin: 10px;
+			}
+			nav
+			{
+				background-color: rgba(107, 10, 10, 0.514);
+				text-align: left;
+				padding: 15px;
+			}
+			footer
+			{
+				background-color: rgba(63, 63, 63, 0);
+				text-align: left;
+				padding: 15px;
+				text-align: center;
+				width: 100%;
+				position: fixed;
+				bottom: 0;
+			}
+			a
+			{
+				text-decoration: none;
+				color:white;
+				padding: 15px;
+			}
+			a:hover
+			{
+				color: rgb(90, 49, 49);
+			}
+			h1
+			{
+				background-color: rgba(107, 10, 10, 0.514);
+				color: white;
+				text-align: center;
+				padding: 30px;
+			}
+            h2{
+                color: white;
+            }
+            p{
+                color: white;
+            }
+			main
+			{
+				background-color: rgba(255, 255, 255, 0);
+				width: 30%;
+				text-align: center;
+				position: relative;
+				left: 660px;
+				margin-bottom: 500px;
+				padding: 30px;
+			}
+			div
+			{
+				background-color: rgba(255, 255, 255, 0);
+				width: 200px;
+				text-align: center;
+				padding: 30px;
+			}
+			#first
+			{
+				position: relative;
+				left: 200px;
+				top: 50px;
+			}
+			#second
+			{
+				position: absolute;
+				top: 100px;
+				right: 50px;
+			}
+			#third
+			{
+				position: fixed;
+				right: 30px;
+				bottom: 100px;
+			}
